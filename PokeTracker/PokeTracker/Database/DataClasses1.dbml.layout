@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 15, 10.625" name="DataClasses1">
+  <DataContextMoniker Name="/DataClasses1DataContext" />
+  <nestedChildShapes>
+    <classShape Id="ebcd8bab-23cc-4f2a-b003-b9737b10522e" absoluteBounds="0.75, 6.25, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/DataClasses1DataContext/PT_Type" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0fbfc1ea-e378-4c7e-a3f8-ca4b6f8dbee6" absoluteBounds="0.765, 6.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="765e8ebc-24d2-425f-a4e8-aac8c37ec309" absoluteBounds="0.5, 1.5, 2, 1.3862939453124996">
+      <DataClassMoniker Name="/DataClasses1DataContext/PT_PokemonHasAttack" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6f6a202d-ca62-49f3-8d57-ddcbfae4ec61" absoluteBounds="0.51500000000000012, 1.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4e51a093-c872-4589-954a-616a0f1eff07" absoluteBounds="4.75, 5.25, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DataClasses1DataContext/PT_PokemonHasType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2b9c300b-17cd-4478-a6ef-cd3144874aac" absoluteBounds="4.7650000000000006, 5.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 6.44314697265625); (3.19791666666667 : 6.44314697265625 : JumpStart); (3.36458333333333 : 6.44314697265625 : JumpEnd); (4.75 : 6.44314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/PT_Type/PT_Type_PT_PokemonHasType" />
+      <nodes>
+        <classShapeMoniker Id="ebcd8bab-23cc-4f2a-b003-b9737b10522e" />
+        <classShapeMoniker Id="4e51a093-c872-4589-954a-616a0f1eff07" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="1c70a2dd-8a14-4f02-9af3-7eddc89dbeac" absoluteBounds="8, 1.375, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DataClasses1DataContext/PT_GymHasPokemon" />
+      <nestedChildShapes>
+        <elementListCompartment Id="870fe253-fc6e-425a-b238-a67bb8380319" absoluteBounds="8.015, 1.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="63634de6-4d41-4af4-bffb-281217423121" absoluteBounds="12.75, 2, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DataClasses1DataContext/PT_UserHasCandy" />
+      <nestedChildShapes>
+        <elementListCompartment Id="abae7552-bf18-4def-96cf-9a35360fb9ae" absoluteBounds="12.765, 2.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="afaf098b-3e30-4e88-979f-d0a72b4f0e58" absoluteBounds="5.75, 8.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DataClasses1DataContext/PT_UserHasPokemon" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ba9c991b-bc78-49e2-9a93-31b511016b92" absoluteBounds="5.765, 9.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="52713631-d0cf-4823-826c-89b9f9c41134" absoluteBounds="1.75, 8.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DataClasses1DataContext/PT_UserPokemonHasAttack" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a906d3bd-0093-40da-be26-912f477d91d4" absoluteBounds="1.7650000000000001, 9.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.75 : 9.44314697265625); (3.75 : 9.44314697265625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClasses1DataContext/PT_UserHasPokemon/PT_UserHasPokemon_PT_UserPokemonHasAttack" />
+      <nodes>
+        <classShapeMoniker Id="afaf098b-3e30-4e88-979f-d0a72b4f0e58" />
+        <classShapeMoniker Id="52713631-d0cf-4823-826c-89b9f9c41134" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="edba2462-5f16-440c-aff1-4d0d70c13558" absoluteBounds="7.625, 3.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DataClasses1DataContext/PT_UserFavoriteGym" />
+      <nestedChildShapes>
+        <elementListCompartment Id="05291eed-0feb-40f6-9af0-f9b93157ac14" absoluteBounds="7.6400000000000006, 4.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4eb2a76e-8ac2-4dc6-9f14-ef0a0298833d" absoluteBounds="5.375, 1.875, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DataClasses1DataContext/PT_Pokemon" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b499a3b4-f444-4724-a91b-7aa81dbf2263" absoluteBounds="5.39, 2.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.375 : 2.38064697265625); (3.55208533333333 : 2.38064697265625 : JumpStart); (3.38541866666667 : 2.38064697265625 : JumpEnd); (2.5 : 2.38064697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/PT_Pokemon/PT_Pokemon_PT_PokemonHasAttack" />
+      <nodes>
+        <classShapeMoniker Id="4eb2a76e-8ac2-4dc6-9f14-ef0a0298833d" />
+        <classShapeMoniker Id="765e8ebc-24d2-425f-a4e8-aac8c37ec309" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.0625 : 3.2612939453125); (6.0625 : 5.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClasses1DataContext/PT_Pokemon/PT_Pokemon_PT_PokemonHasType" />
+      <nodes>
+        <classShapeMoniker Id="4eb2a76e-8ac2-4dc6-9f14-ef0a0298833d" />
+        <classShapeMoniker Id="4e51a093-c872-4589-954a-616a0f1eff07" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.375 : 2.31814697265625); (8 : 2.31814697265625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClasses1DataContext/PT_Pokemon/PT_Pokemon_PT_GymHasPokemon" />
+      <nodes>
+        <classShapeMoniker Id="4eb2a76e-8ac2-4dc6-9f14-ef0a0298833d" />
+        <classShapeMoniker Id="1c70a2dd-8a14-4f02-9af3-7eddc89dbeac" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.375 : 3.0425439453125); (11.7604166666667 : 3.0425439453125 : JumpStart); (11.9270833333333 : 3.0425439453125 : JumpEnd); (12.75 : 3.0425439453125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClasses1DataContext/PT_Pokemon/PT_Pokemon_PT_UserHasCandy" />
+      <nodes>
+        <classShapeMoniker Id="4eb2a76e-8ac2-4dc6-9f14-ef0a0298833d" />
+        <classShapeMoniker Id="63634de6-4d41-4af4-bffb-281217423121" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.09375 : 3.2612939453125); (7.09375 : 8.75)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClasses1DataContext/PT_Pokemon/PT_Pokemon_PT_UserHasPokemon" />
+      <nodes>
+        <classShapeMoniker Id="4eb2a76e-8ac2-4dc6-9f14-ef0a0298833d" />
+        <classShapeMoniker Id="afaf098b-3e30-4e88-979f-d0a72b4f0e58" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="dcb9473c-5021-4669-a5bd-8965b08b80a3" absoluteBounds="2.375, 3.25, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/DataClasses1DataContext/PT_Attack" />
+      <nestedChildShapes>
+        <elementListCompartment Id="aaac0d57-8f4f-457a-a577-36148f53433a" absoluteBounds="2.39, 3.71, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.468752 : 3.25); (3.468752 : 1.90907148632812); (2.5 : 1.90907148632812)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/PT_Attack/PT_Attack_PT_PokemonHasAttack" />
+      <nodes>
+        <classShapeMoniker Id="dcb9473c-5021-4669-a5bd-8965b08b80a3" />
+        <classShapeMoniker Id="765e8ebc-24d2-425f-a4e8-aac8c37ec309" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.28125 : 5.59780110677083); (3.28125 : 8.75)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/PT_Attack/PT_Attack_PT_UserPokemonHasAttack" />
+      <nodes>
+        <classShapeMoniker Id="dcb9473c-5021-4669-a5bd-8965b08b80a3" />
+        <classShapeMoniker Id="52713631-d0cf-4823-826c-89b9f9c41134" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.5625 : 6.25); (2.5625 : 5.59780110677083)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/PT_Type/PT_Type_PT_Attack" />
+      <nodes>
+        <classShapeMoniker Id="ebcd8bab-23cc-4f2a-b003-b9737b10522e" />
+        <classShapeMoniker Id="dcb9473c-5021-4669-a5bd-8965b08b80a3" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="20d8f78a-5353-42cd-9878-cac25b8c4d05" absoluteBounds="11, 4, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DataClasses1DataContext/PT_Gym" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9fd669d8-0527-4ff2-9ab1-f2b69455cddf" absoluteBounds="11.015, 4.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(11.84375 : 4); (11.84375 : 1.65625); (10 : 1.65625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/PT_Gym/PT_Gym_PT_GymHasPokemon" />
+      <nodes>
+        <classShapeMoniker Id="20d8f78a-5353-42cd-9878-cac25b8c4d05" />
+        <classShapeMoniker Id="1c70a2dd-8a14-4f02-9af3-7eddc89dbeac" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11 : 4.56814697265625); (10.5833333333333 : 4.56814697265625 : JumpStart); (10.4166666666667 : 4.56814697265625 : JumpEnd); (9.625 : 4.56814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/PT_Gym/PT_Gym_PT_UserFavoriteGym" />
+      <nodes>
+        <classShapeMoniker Id="20d8f78a-5353-42cd-9878-cac25b8c4d05" />
+        <classShapeMoniker Id="edba2462-5f16-440c-aff1-4d0d70c13558" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="c2c15e6b-a3f0-44f8-bc24-942baa38c195" absoluteBounds="11.875, 7.75, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/DataClasses1DataContext/PT_Team" />
+      <nestedChildShapes>
+        <elementListCompartment Id="477a8107-bac9-4ae3-8055-83414974b248" absoluteBounds="11.89, 8.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(12.4375 : 7.75); (12.4375 : 5.57859537760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/PT_Team/PT_Team_PT_Gym" />
+      <nodes>
+        <classShapeMoniker Id="c2c15e6b-a3f0-44f8-bc24-942baa38c195" />
+        <classShapeMoniker Id="20d8f78a-5353-42cd-9878-cac25b8c4d05" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="2ba08136-c58e-497a-8989-d518bea53da1" absoluteBounds="9, 8.25, 2, 1.9631982421875">
+      <DataClassMoniker Name="/DataClasses1DataContext/PT_User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b8ac11ca-3a6d-473d-ad19-be7b6625d4ce" absoluteBounds="9.015, 8.71, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(10.5 : 8.25); (10.5 : 3.34182216145833); (11.7604166666667 : 3.34182216145833 : JumpStart); (11.9270833333333 : 3.34182216145833 : JumpEnd); (12.75 : 3.34182216145833)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/PT_User/PT_User_PT_UserHasCandy" />
+      <nodes>
+        <classShapeMoniker Id="2ba08136-c58e-497a-8989-d518bea53da1" />
+        <classShapeMoniker Id="63634de6-4d41-4af4-bffb-281217423121" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(9 : 9.48159912109375); (7.75 : 9.48159912109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/PT_User/PT_User_PT_UserHasPokemon" />
+      <nodes>
+        <classShapeMoniker Id="2ba08136-c58e-497a-8989-d518bea53da1" />
+        <classShapeMoniker Id="afaf098b-3e30-4e88-979f-d0a72b4f0e58" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(9.3125 : 8.25); (9.3125 : 5.1362939453125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/PT_User/PT_User_PT_UserFavoriteGym" />
+      <nodes>
+        <classShapeMoniker Id="2ba08136-c58e-497a-8989-d518bea53da1" />
+        <classShapeMoniker Id="edba2462-5f16-440c-aff1-4d0d70c13558" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.875 : 8.59699625651042); (11 : 8.59699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/PT_Team/PT_Team_PT_User" />
+      <nodes>
+        <classShapeMoniker Id="c2c15e6b-a3f0-44f8-bc24-942baa38c195" />
+        <classShapeMoniker Id="2ba08136-c58e-497a-8989-d518bea53da1" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

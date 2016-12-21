@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PokeMaster.master.cs" Inherits="PokeTracker.PokeMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="styles/master.css" rel="stylesheet" />
+    <script src="scripts/JavaScript.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <ul>
+                <li class="home"><a href="#">Home</a></li>
+                <li class="gyms"><a href="#">Gyms</a></li>
+                <li class="team"><a href="#">My Team</a></li>
+                <li class=""><a href="#">Login</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <form id="form1" runat="server">
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    
+        
+
+        </asp:ContentPlaceHolder>
+  
+    </form>
+</body>
+</html>

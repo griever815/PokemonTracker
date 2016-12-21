@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="PokemonTracker" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=BLACKTOWER;Initial Catalog=PokemonTracker;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="PokemonTrackerConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.PT_Type" Member="PT_Types">
+    <Type Name="PT_Type">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Type" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="PT_Type_PT_PokemonHasType" Member="PT_PokemonHasTypes" ThisKey="ID" OtherKey="TypeID" Type="PT_PokemonHasType" />
+      <Association Name="PT_Type_PT_Attack" Member="PT_Attacks" ThisKey="ID" OtherKey="TypeID" Type="PT_Attack" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PT_PokemonHasAttack" Member="PT_PokemonHasAttacks">
+    <Type Name="PT_PokemonHasAttack">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PokemonID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AttackID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="PT_Pokemon_PT_PokemonHasAttack" Member="PT_Pokemon" ThisKey="PokemonID" OtherKey="ID" Type="PT_Pokemon" IsForeignKey="true" />
+      <Association Name="PT_Attack_PT_PokemonHasAttack" Member="PT_Attack" ThisKey="AttackID" OtherKey="ID" Type="PT_Attack" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PT_PokemonHasType" Member="PT_PokemonHasTypes">
+    <Type Name="PT_PokemonHasType">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PokemonID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TypeID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="PT_Type_PT_PokemonHasType" Member="PT_Type" ThisKey="TypeID" OtherKey="ID" Type="PT_Type" IsForeignKey="true" />
+      <Association Name="PT_Pokemon_PT_PokemonHasType" Member="PT_Pokemon" ThisKey="PokemonID" OtherKey="ID" Type="PT_Pokemon" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PT_GymHasPokemon" Member="PT_GymHasPokemons">
+    <Type Name="PT_GymHasPokemon">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PokemonID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="GymID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="PT_Pokemon_PT_GymHasPokemon" Member="PT_Pokemon" ThisKey="PokemonID" OtherKey="ID" Type="PT_Pokemon" IsForeignKey="true" />
+      <Association Name="PT_Gym_PT_GymHasPokemon" Member="PT_Gym" ThisKey="GymID" OtherKey="ID" Type="PT_Gym" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PT_UserHasCandy" Member="PT_UserHasCandies">
+    <Type Name="PT_UserHasCandy">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PokemonID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CandyAmount" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="PT_Pokemon_PT_UserHasCandy" Member="PT_Pokemon" ThisKey="PokemonID" OtherKey="ID" Type="PT_Pokemon" IsForeignKey="true" />
+      <Association Name="PT_User_PT_UserHasCandy" Member="PT_User" ThisKey="UserID" OtherKey="ID" Type="PT_User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PT_UserHasPokemon" Member="PT_UserHasPokemons">
+    <Type Name="PT_UserHasPokemon">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PokemonID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CP" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="PT_UserHasPokemon_PT_UserPokemonHasAttack" Member="PT_UserPokemonHasAttacks" ThisKey="ID" OtherKey="UserPokemonID" Type="PT_UserPokemonHasAttack" />
+      <Association Name="PT_Pokemon_PT_UserHasPokemon" Member="PT_Pokemon" ThisKey="PokemonID" OtherKey="ID" Type="PT_Pokemon" IsForeignKey="true" />
+      <Association Name="PT_User_PT_UserHasPokemon" Member="PT_User" ThisKey="UserID" OtherKey="ID" Type="PT_User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PT_UserPokemonHasAttack" Member="PT_UserPokemonHasAttacks">
+    <Type Name="PT_UserPokemonHasAttack">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserPokemonID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AttackID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="PT_UserHasPokemon_PT_UserPokemonHasAttack" Member="PT_UserHasPokemon" ThisKey="UserPokemonID" OtherKey="ID" Type="PT_UserHasPokemon" IsForeignKey="true" />
+      <Association Name="PT_Attack_PT_UserPokemonHasAttack" Member="PT_Attack" ThisKey="AttackID" OtherKey="ID" Type="PT_Attack" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PT_UserFavoriteGym" Member="PT_UserFavoriteGyms">
+    <Type Name="PT_UserFavoriteGym">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="GymID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="PT_Gym_PT_UserFavoriteGym" Member="PT_Gym" ThisKey="GymID" OtherKey="ID" Type="PT_Gym" IsForeignKey="true" />
+      <Association Name="PT_User_PT_UserFavoriteGym" Member="PT_User" ThisKey="UserID" OtherKey="ID" Type="PT_User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PT_Pokemon" Member="PT_Pokemons">
+    <Type Name="PT_Pokemon">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ImagePath" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="PT_Pokemon_PT_PokemonHasAttack" Member="PT_PokemonHasAttacks" ThisKey="ID" OtherKey="PokemonID" Type="PT_PokemonHasAttack" />
+      <Association Name="PT_Pokemon_PT_PokemonHasType" Member="PT_PokemonHasTypes" ThisKey="ID" OtherKey="PokemonID" Type="PT_PokemonHasType" />
+      <Association Name="PT_Pokemon_PT_GymHasPokemon" Member="PT_GymHasPokemons" ThisKey="ID" OtherKey="PokemonID" Type="PT_GymHasPokemon" />
+      <Association Name="PT_Pokemon_PT_UserHasCandy" Member="PT_UserHasCandies" ThisKey="ID" OtherKey="PokemonID" Type="PT_UserHasCandy" />
+      <Association Name="PT_Pokemon_PT_UserHasPokemon" Member="PT_UserHasPokemons" ThisKey="ID" OtherKey="PokemonID" Type="PT_UserHasPokemon" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PT_Attacks" Member="PT_Attacks">
+    <Type Name="PT_Attack">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="TypeID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DPS" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="Damage" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Seconds" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="Energy" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IsChargeMove" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="PT_Attack_PT_PokemonHasAttack" Member="PT_PokemonHasAttacks" ThisKey="ID" OtherKey="AttackID" Type="PT_PokemonHasAttack" />
+      <Association Name="PT_Attack_PT_UserPokemonHasAttack" Member="PT_UserPokemonHasAttacks" ThisKey="ID" OtherKey="AttackID" Type="PT_UserPokemonHasAttack" />
+      <Association Name="PT_Type_PT_Attack" Member="PT_Type" ThisKey="TypeID" OtherKey="ID" Type="PT_Type" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PT_Gym" Member="PT_Gyms">
+    <Type Name="PT_Gym">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TeamID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="GymLevel" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Location" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="PT_Gym_PT_GymHasPokemon" Member="PT_GymHasPokemons" ThisKey="ID" OtherKey="GymID" Type="PT_GymHasPokemon" />
+      <Association Name="PT_Gym_PT_UserFavoriteGym" Member="PT_UserFavoriteGyms" ThisKey="ID" OtherKey="GymID" Type="PT_UserFavoriteGym" />
+      <Association Name="PT_Team_PT_Gym" Member="PT_Team" ThisKey="TeamID" OtherKey="ID" Type="PT_Team" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PT_Team" Member="PT_Teams">
+    <Type Name="PT_Team">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="PT_Team_PT_Gym" Member="PT_Gyms" ThisKey="ID" OtherKey="TeamID" Type="PT_Gym" />
+      <Association Name="PT_Team_PT_User" Member="PT_Users" ThisKey="ID" OtherKey="TeamID" Type="PT_User" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PT_User" Member="PT_Users">
+    <Type Name="PT_User">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Username" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="TeamID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="PT_User_PT_UserHasCandy" Member="PT_UserHasCandies" ThisKey="ID" OtherKey="UserID" Type="PT_UserHasCandy" />
+      <Association Name="PT_User_PT_UserHasPokemon" Member="PT_UserHasPokemons" ThisKey="ID" OtherKey="UserID" Type="PT_UserHasPokemon" />
+      <Association Name="PT_User_PT_UserFavoriteGym" Member="PT_UserFavoriteGyms" ThisKey="ID" OtherKey="UserID" Type="PT_UserFavoriteGym" />
+      <Association Name="PT_Team_PT_User" Member="PT_Team" ThisKey="TeamID" OtherKey="ID" Type="PT_Team" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

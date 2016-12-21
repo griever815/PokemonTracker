@@ -1,0 +1,114 @@
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\ApplicationInsights.config
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\csc.exe
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\vbc.exe
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\VBCSCompiler.exe
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\PokeTracker.dll.config
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\PokeTracker.dll
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\PokeTracker.pdb
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.AI.Web.dll
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.AI.Web.xml
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\obj\Debug\PokeTracker.csprojResolveAssemblyReference.cache
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\obj\Debug\PokeTracker.dll
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\obj\Debug\PokeTracker.pdb
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Excel.dll
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Excel.pdb
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\obj\Debug\PokeTracker.Properties.Resources.resources
+C:\Users\Jacob Parry\Documents\Visual Studio 2015\Projects\PokeTracker\PokeTracker\obj\Debug\PokeTracker.csproj.GenerateResource.Cache
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\ApplicationInsights.config
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\csc.exe
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\vbc.exe
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\VBCSCompiler.exe
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\PokeTracker.dll.config
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\PokeTracker.dll
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\PokeTracker.pdb
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Excel.dll
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.AI.Web.dll
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Excel.pdb
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.AI.Web.xml
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\obj\Debug\PokeTracker.csprojResolveAssemblyReference.cache
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\obj\Debug\PokeTracker.Properties.Resources.resources
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\obj\Debug\PokeTracker.csproj.GenerateResource.Cache
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\obj\Debug\PokeTracker.dll
+C:\Users\Jacob Parry\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\obj\Debug\PokeTracker.pdb
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\ApplicationInsights.config
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\csc.exe
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\vbc.exe
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\VBCSCompiler.exe
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\PokeTracker.dll.config
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\PokeTracker.dll
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\PokeTracker.pdb
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Excel.dll
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.AI.Web.dll
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Excel.pdb
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.AI.Web.xml
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\obj\Debug\PokeTracker.csprojResolveAssemblyReference.cache
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\obj\Debug\PokeTracker.Properties.Resources.resources
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\obj\Debug\PokeTracker.csproj.GenerateResource.Cache
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\obj\Debug\PokeTracker.dll
+C:\Users\Griever815\Dropbox\Microsoft Visual Studio 2015\Projects\PokeTracker\PokeTracker\obj\Debug\PokeTracker.pdb
